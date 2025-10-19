@@ -1,0 +1,48 @@
+// C:\Users\Admin\Desktop\wittyfrontend2\wittyfrontend2\src\assets\animations\card.jsx
+import { cn } from "../../lib/utils";
+
+export function Card({ className = "", children, ...props }) {
+  return (
+    <div
+      className={cn(
+        "bg-white border border-gray-200 rounded-lg shadow-sm",
+        className
+      )}
+      {...props}
+    >
+      {children}
+    </div>
+  );
+}
+
+export function CardHeader({ className = "", children, ...props }) {
+  return (
+    <div className={cn("p-4 border-b border-gray-200", className)} {...props}>
+      {children}
+    </div>
+  );
+}
+
+export function CardTitle({ className = "", children, ...props }) {
+  return (
+    <h3 className={cn("text-lg font-semibold text-gray-900", className)} {...props}>
+      {children}
+    </h3>
+  );
+}
+
+export function CardContent({ className = "", children, ...props }) {
+  return (
+    <div className={cn("p-4", className)} {...props}>
+      {children}
+    </div>
+  );
+}
+
+export function CardFooter({ className = "", children, ...props }) {
+  return (
+    <div className={cn("p-4 border-t border-gray-200", className)} {...props}>
+      {children}
+    </div>
+  );
+}

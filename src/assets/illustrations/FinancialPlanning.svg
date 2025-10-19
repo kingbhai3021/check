@@ -1,0 +1,38 @@
+<svg width="400" height="300" viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="300" fill="#F8FAFC"/>
+  
+  <!-- Person figure -->
+  <circle cx="200" cy="120" r="25" fill="#3b82f6"/>
+  <rect x="185" y="145" width="30" height="40" rx="15" fill="#3b82f6"/>
+  <rect x="175" y="185" width="50" height="15" rx="7" fill="#3b82f6"/>
+  
+  <!-- Arms -->
+  <rect x="160" y="150" width="8" height="25" rx="4" fill="#3b82f6"/>
+  <rect x="232" y="150" width="8" height="25" rx="4" fill="#3b82f6"/>
+  
+  <!-- Chart/graph elements -->
+  <rect x="80" y="200" width="8" height="40" fill="#3b82f6" opacity="0.7"/>
+  <rect x="95" y="180" width="8" height="60" fill="#3b82f6" opacity="0.8"/>
+  <rect x="110" y="160" width="8" height="80" fill="#3b82f6"/>
+  <rect x="125" y="140" width="8" height="100" fill="#3b82f6" opacity="0.9"/>
+  
+  <!-- Document/paper -->
+  <rect x="280" y="160" width="60" height="80" rx="4" fill="white" stroke="#3b82f6" stroke-width="2"/>
+  <rect x="290" y="170" width="40" height="3" fill="#3b82f6" opacity="0.6"/>
+  <rect x="290" y="180" width="35" height="3" fill="#3b82f6" opacity="0.6"/>
+  <rect x="290" y="190" width="30" height="3" fill="#3b82f6" opacity="0.6"/>
+  
+  <!-- Calculator -->
+  <rect x="300" y="200" width="40" height="30" rx="4" fill="white" stroke="#3b82f6" stroke-width="2"/>
+  <rect x="305" y="205" width="30" height="20" fill="#3b82f6" opacity="0.1"/>
+  
+  <!-- Money/coin elements -->
+  <circle cx="120" cy="100" r="12" fill="#3b82f6" opacity="0.6"/>
+  <circle cx="280" cy="100" r="12" fill="#3b82f6" opacity="0.6"/>
+  <circle cx="200" cy="80" r="10" fill="#3b82f6" opacity="0.4"/>
+  
+  <!-- Growth arrow -->
+  <path d="M150 220 L180 200 L200 220 L220 200 L250 220" stroke="#3b82f6" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <polygon points="250,220 245,215 245,225" fill="#3b82f6"/>
+</svg>

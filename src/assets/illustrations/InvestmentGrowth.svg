@@ -1,0 +1,43 @@
+<svg width="400" height="300" viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="300" fill="#F8FAFC"/>
+  
+  <!-- Person figure -->
+  <circle cx="200" cy="120" r="25" fill="#3b82f6"/>
+  <rect x="185" y="145" width="30" height="40" rx="15" fill="#3b82f6"/>
+  <rect x="175" y="185" width="50" height="15" rx="7" fill="#3b82f6"/>
+  
+  <!-- Arms -->
+  <rect x="160" y="150" width="8" height="25" rx="4" fill="#3b82f6"/>
+  <rect x="232" y="150" width="8" height="25" rx="4" fill="#3b82f6"/>
+  
+  <!-- Investment chart -->
+  <path d="M80 240 Q120 200 160 180 T240 140 T320 100" stroke="#3b82f6" stroke-width="4" fill="none" stroke-linecap="round"/>
+  
+  <!-- Chart points -->
+  <circle cx="80" cy="240" r="4" fill="#3b82f6"/>
+  <circle cx="120" cy="200" r="4" fill="#3b82f6"/>
+  <circle cx="160" cy="180" r="4" fill="#3b82f6"/>
+  <circle cx="200" cy="160" r="4" fill="#3b82f6"/>
+  <circle cx="240" cy="140" r="4" fill="#3b82f6"/>
+  <circle cx="280" cy="120" r="4" fill="#3b82f6"/>
+  <circle cx="320" cy="100" r="4" fill="#3b82f6"/>
+  
+  <!-- Piggy bank -->
+  <ellipse cx="100" cy="180" rx="20" ry="25" fill="#3b82f6" opacity="0.7"/>
+  <rect x="95" y="155" width="10" height="8" rx="2" fill="#3b82f6" opacity="0.7"/>
+  <circle cx="100" cy="175" r="3" fill="white"/>
+  
+  <!-- Building/portfolio -->
+  <rect x="280" y="160" width="25" height="60" fill="#3b82f6" opacity="0.6"/>
+  <rect x="310" y="140" width="25" height="80" fill="#3b82f6" opacity="0.7"/>
+  <rect x="340" y="120" width="25" height="100" fill="#3b82f6" opacity="0.8"/>
+  
+  <!-- Growth indicators -->
+  <path d="M50 80 L80 50 L110 80" stroke="#3b82f6" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <polygon points="110,80 105,75 105,85" fill="#3b82f6"/>
+  
+  <!-- Dollar signs -->
+  <text x="60" y="70" font-family="Arial" font-size="16" font-weight="bold" fill="#3b82f6" opacity="0.6">$</text>
+  <text x="350" y="110" font-family="Arial" font-size="20" font-weight="bold" fill="#3b82f6">$</text>
+</svg>
