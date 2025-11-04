@@ -69,7 +69,7 @@ function Distributor() {
       submitButton.disabled = true;
 
       // Submit to backend API
-      const response = await fetch('https://wittywealth.org/api/leads/dsa-partner', {
+      const response = await fetch('http://localhost:5050/api/leads/dsa-partner', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

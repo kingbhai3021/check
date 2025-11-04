@@ -2,7 +2,7 @@ import axios from 'axios';
 
 // Create axios instance with base configuration
 const apiClient = axios.create({
-  baseURL: 'https://wittywealth.org/api',
+  baseURL: 'http://localhost:5050/api',
   withCredentials: true, // Important for sending cookies
   headers: {
     'Content-Type': 'application/json',

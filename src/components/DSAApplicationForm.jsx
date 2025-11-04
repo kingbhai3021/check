@@ -303,7 +303,7 @@ const DSAApplicationForm = ({ onClose, onSuccess }) => {
     setLoading(true);
     
     try {
-      const response = await fetch('https://wittywealth.org/api/dsa-applications/submit', {
+      const response = await fetch('http://localhost:5050/api/dsa-applications/submit', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

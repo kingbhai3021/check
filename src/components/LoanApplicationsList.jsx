@@ -16,7 +16,7 @@ export default function LoanApplicationsList() {
     try {
       setLoading(true);
       console.log('Fetching loan applications from employee endpoint...');
-      const response = await fetch('https://wittywealth.org/api/loan-applications/employee', {
+      const response = await fetch('http://localhost:5050/api/loan-applications/employee', {
         credentials: 'include',
       });
 
@@ -39,7 +39,7 @@ export default function LoanApplicationsList() {
 
   const updateStatus = async (applicationId, newStatus, remarks = '') => {
     try {
-      const response = await fetch(`https://wittywealth.org/api/loan-applications/update-status/${applicationId}`, {
+      const response = await fetch(`http://localhost:5050/api/loan-applications/update-status/${applicationId}`, {
         method: 'PUT',
         headers: {
           'Content-Type': 'application/json',
@@ -68,7 +68,7 @@ export default function LoanApplicationsList() {
     }
 
     try {
-      const response = await fetch(`https://wittywealth.org/api/loan-applications/forward-to-admin/${applicationId}`, {
+      const response = await fetch(`http://localhost:5050/api/loan-applications/forward-to-admin/${applicationId}`, {
         method: 'POST',
         credentials: 'include',
       });

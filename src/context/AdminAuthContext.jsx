@@ -26,7 +26,7 @@ export const AdminAuthProvider = ({ children }) => {
     try {
       setLoading(true);
       // Check if there's a valid admin token in cookies
-      const response = await fetch('https://wittywealth.org/api/validate', {
+      const response = await fetch('http://localhost:5050/api/validate', {
         credentials: 'include', // Include cookies
       });
       
@@ -66,7 +66,7 @@ export const AdminAuthProvider = ({ children }) => {
     try {
       setLoading(true);
       
-      const response = await fetch('https://wittywealth.org/api/login', {
+      const response = await fetch('http://localhost:5050/api/login', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

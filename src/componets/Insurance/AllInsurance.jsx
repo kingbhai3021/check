@@ -135,7 +135,7 @@ function AllInsurance() {
     e.preventDefault();
     
     try {
-      const response = await fetch('https://wittywealth.org/api/leads/insurance', {
+      const response = await fetch('http://localhost:5050/api/leads/insurance', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

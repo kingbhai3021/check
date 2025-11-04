@@ -48,7 +48,7 @@ function TermForm() {
     setLoading(true);
 
     try {
-      const response = await fetch('https://wittywealth.org/api/insurance/submit', {
+      const response = await fetch('http://localhost:5050/api/insurance/submit', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

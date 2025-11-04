@@ -162,7 +162,7 @@ export default function EmployeeDashboard() {
       console.log('Current user:', currentUser);
       
       if (employeeId) {
-        const response = await fetch(`https://wittywealth.org/api/dsa/employee/${employeeId}`, {
+        const response = await fetch(`http://localhost:5050/api/dsa/employee/${employeeId}`, {
           method: 'GET',
           credentials: 'include', // Include cookies for authentication
         });
@@ -204,7 +204,7 @@ export default function EmployeeDashboard() {
 
   const loadDSAApplications = async () => {
     try {
-      const response = await fetch('https://wittywealth.org/api/dsa-applications/bde/me', {
+      const response = await fetch('http://localhost:5050/api/dsa-applications/bde/me', {
         method: 'GET',
         credentials: 'include',
       });

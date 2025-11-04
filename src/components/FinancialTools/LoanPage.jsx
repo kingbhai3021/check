@@ -170,7 +170,7 @@ const LoanPage = () => {
     e.preventDefault()
     
     try {
-      const response = await fetch('https://wittywealth.org/api/leads/loan', {
+      const response = await fetch('http://localhost:5050/api/leads/loan', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

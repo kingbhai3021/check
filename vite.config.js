@@ -8,8 +8,8 @@ export default defineConfig({
     proxy: {
       '/api': {
         target: process.env.NODE_ENV === 'production' 
-          ? 'https://wittywealth.org' 
-          : 'https://wittywealth.org',
+          ? 'http://localhost:5050' 
+          : 'http://localhost:5050',
         changeOrigin: true,
         secure: false
       }

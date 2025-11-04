@@ -136,7 +136,7 @@ const MutualFundsPage = () => {
     e.preventDefault();
     
     try {
-      const response = await fetch('https://wittywealth.org/api/leads/mutual-fund', {
+      const response = await fetch('http://localhost:5050/api/leads/mutual-fund', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

@@ -94,7 +94,7 @@ const Dashboard = () => {
   // Fetch dashboard statistics
   const fetchStats = async () => {
     try {
-      const response = await fetch('https://wittywealth.org/api/leads/stats');
+      const response = await fetch('http://localhost:5050/api/leads/stats');
       const data = await response.json();
       if (data.success) {
         setStats(data.data);
@@ -111,7 +111,7 @@ const Dashboard = () => {
     
     try {
       const activeCategoryData = categories.find(cat => cat.id === activeCategory);
-      const response = await fetch(`https://wittywealth.org${activeCategoryData.endpoint}`);
+      const response = await fetch(`http://localhost:5050${activeCategoryData.endpoint}`);
       const data = await response.json();
       
       if (data.success) {

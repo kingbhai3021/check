@@ -16,7 +16,7 @@ export default function ManageLoanApplications() {
     try {
       setLoading(true);
       console.log('Fetching loan applications for admin...');
-      const response = await fetch('https://wittywealth.org/api/loan-applications/admin', {
+      const response = await fetch('http://localhost:5050/api/loan-applications/admin', {
         credentials: 'include',
       });
 
@@ -39,7 +39,7 @@ export default function ManageLoanApplications() {
 
   const reviewApplication = async (applicationId, status, remarks = '') => {
     try {
-      const response = await fetch(`https://wittywealth.org/api/loan-applications/admin-review/${applicationId}`, {
+      const response = await fetch(`http://localhost:5050/api/loan-applications/admin-review/${applicationId}`, {
         method: 'PUT',
         headers: {
           'Content-Type': 'application/json',

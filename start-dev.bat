@@ -13,7 +13,7 @@ start "Frontend Server" cmd /k "npm run dev"
 
 echo.
 echo Development servers are starting...
-echo Backend: https://wittywealth.org
+echo Backend: http://localhost:5050
 echo Frontend: http://localhost:5173
 echo.
 echo Press any key to close this window...

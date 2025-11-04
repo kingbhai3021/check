@@ -81,7 +81,7 @@ npm run dev:full
 
 ### 🌐 Access Points
 - **Frontend**: http://localhost:5173
-- **Backend API**: https://wittywealth.org
+- **Backend API**: http://localhost:5050
 - **API Endpoints**: http://localhost:5173/api/* (proxied to backend)
 
 ### 🔐 Authentication System

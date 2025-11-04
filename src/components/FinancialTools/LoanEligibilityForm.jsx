@@ -157,7 +157,7 @@ const LoanEligibilityForm = () => {
       }
 
       // Submit to backend
-      const response = await fetch('https://wittywealth.org/api/loan-eligibility/submit', {
+      const response = await fetch('http://localhost:5050/api/loan-eligibility/submit', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

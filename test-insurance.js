@@ -20,7 +20,7 @@ async function testInsuranceSubmission() {
 
         console.log('Submitting test data:', JSON.stringify(testData, null, 2));
 
-        const response = await fetch('https://wittywealth.org/api/insurance/submit', {
+        const response = await fetch('http://localhost:5050/api/insurance/submit', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
@@ -35,7 +35,7 @@ async function testInsuranceSubmission() {
             console.log('\n--- Testing retrieval ---');
             
             // Test retrieval
-            const getResponse = await fetch(`https://wittywealth.org/api/insurance/${result.application.id}`, {
+            const getResponse = await fetch(`http://localhost:5050/api/insurance/${result.application.id}`, {
                 credentials: 'include'
             });
             

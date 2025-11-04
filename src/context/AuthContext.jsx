@@ -25,7 +25,7 @@ export const AuthProvider = ({ children }) => {
   const checkAuthStatus = async () => {
     try {
       // Check if there's a valid token in cookies
-      const response = await fetch('https://wittywealth.org/api/validate', {
+      const response = await fetch('http://localhost:5050/api/validate', {
         credentials: 'include', // Include cookies
       });
       
@@ -50,7 +50,7 @@ export const AuthProvider = ({ children }) => {
     try {
       setLoading(true);
       
-      const response = await fetch('https://wittywealth.org/api/login', {
+      const response = await fetch('http://localhost:5050/api/login', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
